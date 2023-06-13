@@ -168,7 +168,7 @@ function App() {
           <div className="highlights">
             <h2 className="highlight">PSA India in action</h2>
             <h5 className="view_all">
-              <a href=" ">View ALL</a>
+              <button className="btn btn-link">View ALL</button>
             </h5>
           </div>
           <Row>

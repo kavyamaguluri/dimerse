@@ -1,8 +1,8 @@
 .img {
   width: 100%;
 }
-a {
-  color: #fff;
+a{
+  color: #fff !important;
 }
 .logo {
   width: 165px;
@@ -28,6 +28,7 @@ a {
 }
 .list {
   display: flex;
+  padding-left: 35% !important;
 }
 .flex-container {
   background-color: #1e1450;
@@ -91,6 +92,7 @@ a {
   position: absolute;
   top: 8px;
   left: 16px;
+  
 }
 .women_head {
   margin: 120px 0px 20px 80px;
@@ -99,6 +101,7 @@ a {
 .women_subhead {
   margin: 40px 1200px 20px 80px;
   text-align: left;
+  font-weight: bold;
 }
 .map_text {
   padding: 50px 10px 0 0;
@@ -118,7 +121,6 @@ a {
   justify-content: space-between;
 }
 .view_all {
-  color: #1e1450;
   margin: 10px 0 0 0;
 }
 .initiatives {
