@@ -1,38 +1,156 @@
-.App {
+.img {
+  width: 100%;
+}
+a {
+  color: #fff;
+}
+.logo {
+  width: 165px;
+  height: 40px;
+}
+.home_head {
+  font-size: 100px;
+  max-width: 600px;
+  text-align: left;
+}
+.home_subhead {
+  font-size: 40px;
+}
+.banner_heading {
+  position: relative;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.top-left {
+  position: absolute;
+  top: 250px;
+  left: 196px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list {
+  display: flex;
+}
+.flex-container {
+  background-color: #1e1450;
+  color: #fff;
+  font-size: 18px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.cta {
+  margin: 0 20px 0 0;
+}
+.moving_india {
+  padding: 25px;
+  font-size: 25px;
+}
+.banner_2 {
+  margin: 120px 0 70px 0;
+}
+.banner2_row {
+  padding: 40px 0 0 0;
+}
+.banner2_para {
+  margin: 0 150px 0 0px;
+  color: #555;
+  font: 20px "Pilat Wide", sans-serif;
+}
+.pic_banner {
+  margin-bottom: 32px;
+  position: relative;
+  color: white;
+}
+.top_text {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.railservice_pic {
+  position: relative;
+  color: white;
+}
+.rail_text {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.news {
+  background-color: #1e1450;
+}
+.highligh_container {
+  margin: 80px 0;
+}
+.women_pic {
+  width: 100%;
+}
+.women_container {
+  position: relative;
+  text-align: center;
+}
+.women_text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.women_head {
+  margin: 120px 0px 20px 80px;
+  text-align: left;
+}
+.women_subhead {
+  margin: 40px 1200px 20px 80px;
+  text-align: left;
+}
+.map_text {
+  padding: 50px 10px 0 0;
+}
+.map_container {
+  margin: 0 0 80px 0;
+}
+.map_para {
+  padding: 40px;
+  color: #555;
+  font: 20px "Pilat Wide", sans-serif;
+}
+.highlights {
+  color: #000;
+  margin: 50px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.view_all {
+  color: #1e1450;
+  margin: 10px 0 0 0;
+}
+.initiatives {
+  margin: 40px 0;
+  color: #fff;
+  padding: 60px 0 60px 0;
+}
+.init_text {
+  font: 20px "Pilat Wide", sans-serif;
+  padding: 10px 0 20px 0;
+}
+.init_heading {
+  padding: 10px 0 0 0;
+}
+.children {
+  width: 827px;
+  height: 585px;
+}
+.footer {
+  background-color: #1e1450;
+  color: #fff;
+}
+.footer_container {
+  padding: 40px 0 80px 0;
+}
+.footer_form {
+  padding: 20px 0 50px 0;
+}
+.footer_row {
+  font-size: 20px;
+}
+.footer_links {
+  display: flex;
+  justify-content: space-between;
 }
